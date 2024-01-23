@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-primary;
+}
+
+.btn {
+  @apply py-3 px-9   font-bold rounded-md hover:opacity-70 transition-all duration-300 capitalize;
+}

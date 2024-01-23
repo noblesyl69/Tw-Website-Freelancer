@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../lib/output.css" rel="stylesheet">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font ols -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body class="bg-slate-950 text-white tracking-wider">
+    <!-- header -->
+    <header class="w-full py-8">
+        <nav class="container mx-auto px-4 flex justify-between items-center">
+            <div class="md:py-5 text-3xl font-bold text-lime-500">
+                <a href=""> <span class="text-white">Lime</span>Code.</a>
+            </div>
+            <div class="">
+                <ul class="hidden md:flex md:space-x-6 capitalize">
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">Beranda</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">Kelas</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">alur belajar</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">event</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">blog</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="hidden md:block">
+                <a href="#home" class="btn bg-lime-500 text-slate-950">Register <i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+
+            <!-- mobile menu -->
+
+            <div id="navMobile" class="hidden transition-all duration-300">
+                <ul class="py-20 absolute h-[100vh] grid place-items-center inset-0 bg-slate-900 capitalize z-50">
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">Beranda</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">Kelas</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">alur belajar</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">event</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">blog</a></li>
+                    <li><a href="#home" class="hover:text-lime-500 transition-all duration-300">contact</a></li>
+
+                    <li><a href="#home" class=" px-20 py-3  bg-lime-500 text-white font-bold rounded-md hover:opacity-80 transition-all duration-300">register</a></li>
+                </ul>
+            </div>
+
+            <div id="menu" class="md:hidden cursor-pointer transition-all duration-300 z-50">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class=" relative">
+        <section class="py-20">
+            <!-- bg -->
+            <div class="w-60 h-60 bg-lime-400/30 blur-2xl absolute top-2 md:-top-5 -left-5 -z-20 rounded-full"></div>
+            <div class="w-60 h-60 bg-lime-400/30 blur-2xl absolute bottom-0 right-0 -z-20  rounded-full"></div>
+
+            <div class="container mx-auto px-4">
+                <div class="md:flex w-full ">
+                    <!-- kiri -->
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                        <h4 class="text-sm mb-2 capitalize font-semibold text-lime-500">#janganMalas</h4>
+                        <h1 class="font-bold text-3xl mb-4 md:mb-6 md:text-4xl md:leading-relaxed leading-snug capitalize">Lime <span class="text-lime-500">Code</span> belajar coding simpel.</h1>
+                        <p class="leading-relaxed mb-12 text-sm capitalize md:text-base md:pr-10">Ayo Pelajari Skil Baru Sesuai Dengan Minatmu. Kumpulan kelas coding gratis tentang HTML, CSS, JavaScript, Php, Laravel, Python, Go-Lang, dll.</p>
+
+                        <a href="" class="btn bg-lime-500 text-slate-950">mulai sekarang <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                    <!-- kanan -->
+                    <div class=" md:w-1/2 relative">
+                        <div class="md:h-[340px] rounded-md  overflow-hidden">
+                            <img src="../public/hero2.svg" alt="" class="w-full h-full object-cover">
+                        </div>
+
+                        <div class="absolute top-1/2 -left-5">
+                            <div class="max-w-44 bg-white rounded-md py-3 pl-2 pr-1 capitalize">
+                                <h3 class="text-sm font-bold text-slate-950 mb-1 ">ngoding itu mudah</h3>
+                                <p class="text-xs text-slate-700 italic">yang susak kamu malas memulainya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- main utama -->
+    <main>
+        <header class="w-full  py-20">
+            <div class="container mx-auto px-4">
+                <div class="capitalize text-center mb-12">
+                    <h4 class="text-lime-500 font-semibold mb-2
+                    ">mulai belajar</h4>
+                    <h1 class="font-bold text-2xl leading-snug mx-auto md:text-3xl md:max-w-lg">Category kelas online di line <span class="text-lime-500">code</span></h1>
+                </div>
+
+                <!-- content -->
+                <div class="grid md:grid-cols-4 md:gap-6">
+                    <!-- card 1-->
+                    <div class="py-3 px-4 border border-lime-500 rounded-md mb-4 capitalize md:mb-0 md:bg-slate-900 md:border-slate-900 text-center hover:bg-lime-500 hover:text-slate-950 group transition-all duration-300">
+                        <div class="mb-1">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h2 class="font-semibold mb-4 ">kelas web dev</h2>
+                        <p class="text-sm text-slate-500 group-hover:text-slate-900">belajar front end dan back end ataupun full stack</p>
+
+                    </div>
+                    <!-- card 2-->
+                    <div class="py-3 px-4 border border-lime-500 rounded-md mb-4 capitalize md:mb-0 md:bg-slate-900 md:border-slate-900 text-center hover:bg-lime-500 hover:text-slate-950 group transition-all duration-300">
+                        <div class="mb-1">
+                            <i class="fa-brands fa-android"></i>
+                        </div>
+                        <h2 class="font-semibold mb-4 ">kelas android dev</h2>
+                        <p class="text-sm text-slate-500 group-hover:text-slate-900">belajar front end dan back end ataupun full stack</p>
+                    </div>
+
+                    <!-- card 3-->
+                    <div class="py-2 px-4 border border-lime-500 rounded-md mb-4 md:mb-0 md:bg-slate-900 md:border-slate-900 text-center hover:bg-lime-500 hover:text-slate-950">
+                        <div class="mb-1">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <h2>kelas design</h2>
+                    </div>
+                    <!-- card 4-->
+                    <div class="py-2 px-4 border border-lime-500 rounded-md mb-4 md:mb-0 md:bg-slate-900 md:border-slate-900 text-center hover:bg-lime-500 hover:text-slate-950">
+                        <div class="mb-1">
+                            <i class="fa-solid fa-map"></i>
+                        </div>
+                        <h2>road map</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
+
+    <script src="../lib/main.js"></script>
+</body>
+
+</html>
