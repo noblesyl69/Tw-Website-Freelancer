@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       fontFamily:{
         primary: 'poppins'
+      },
+      colors: {
+        utama : '#000000',
+        kedua: '#120F0E',
+        ketiga: '#1B1715'
       }
     },
   },
